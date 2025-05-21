@@ -1,1 +1,1 @@
-here is teh website for the shepherds voice ministry 
+here is the website for the shepherds voice ministry 

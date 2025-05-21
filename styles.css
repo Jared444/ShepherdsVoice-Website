@@ -82,7 +82,7 @@ body {
   }
 
   .card {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 3rem 2rem;
     width: 450px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
@@ -107,10 +107,10 @@ body {
 
   .card a {
     font-size: 1.2rem;
-    color: red;
+    color: rgb(6, 6, 6);
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(6, 6, 6);
   }
   .content-box {
     background-color: white;
