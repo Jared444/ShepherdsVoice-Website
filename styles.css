@@ -146,3 +146,40 @@ body {
     text-align: center;
 
 }
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links,
+    .social-icons {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #f37813;
+      padding: 1rem;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+    }
+  
+    .nav-links.active,
+    .social-icons.active {
+      display: flex;
+    }
+  
+    .navbar {
+      flex-wrap: wrap;
+    }
+  }

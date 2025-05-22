@@ -10,6 +10,11 @@
 <body>
   <header class="navbar">
     <div class="logo"><span class="bold">Shepherds</span><span class="red">Voice</span></div>
+
+    <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
     <nav class="nav-links">
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
@@ -24,4 +29,15 @@
     </div>
   </header>
 </body>
+
+<script>
+    const toggleBtn = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const socialIcons = document.querySelector('.social-icons');
+  
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      socialIcons.classList.toggle('active');
+    });
+  </script>
 </html>
